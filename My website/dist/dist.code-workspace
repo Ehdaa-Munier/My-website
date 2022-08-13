@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../pen-export-BarPPRE/dist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dist"
+	}
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Ehdaa Sakawi</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+</html><!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodePen - A Pen by Ehdaa Sakawi</title>
+  <meta name="description" content="Best Free online courses..."/>
+  <meta name="keywords" content="Tahiri, Lahcen, Tahiri lahcen, Barmaja online, java, php, ionic, angular, nodejs, react"/>
+  <link rel="stylesheet" href="css/style.css"/>
+<link rel="icon" href="icons/myicon.icon"/>
+  <link  href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/> 
+</head>
+<body>
+  <section class="home"  id="home">
+<!-- partial:index.partial.html -->
+    
+        <nav>
+          <h2>Portfolio</h2>
+      
+            <ul  id="actions"> 
+                <li class="nav-item"><a href="#" class="nav-link">Home</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Comment</a>
+                </li>
+            </ul>
+            
+            
+        </nav>
+    <div class="content">
+    
+      <div class="container-texts">
+      
+        <h4>Hello, my name is</h4>
+    <h1>Ehdaa<span> Sakawi</span></h1>
+    <h3>I am a student<span> in CYF</span></h3>
+        <a href="#" class="btn">My Project</a>
+       <div class="social">
+           <a href="https://m.facebook.com/home.php?_rdr" target="_blank"><img src="https://cdn.icon-icons.com/icons2/285/PNG/128/social_facebook_box_blue_256_30649.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/ehdaa-munier-35401b247/"  target="_blank" ><img src="https://cdn.icon-icons.com/icons2/555/PNG/128/linkedin_icon-icons.com_53609.png" alt=""></a>
+        <a href="https://www.instagram.com/" target="_blank" ><img src="https://cdn.icon-icons.com/icons2/1753/PNG/128/iconfinder-social-media-applications-3instagram-4102579_113804.png" alt=""></a>
+        </div> 
+        <div class="container-images">
+           <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--O0u1bNHs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://miro.medium.com/max/1400/0%2APXf5ge7QCN9Ga_CL.gif"   alt=""  class="mypic">
+          <imag src="https://noirmedical.com/" alt="" class="shape"
+      </div>
+    </div>
+    </section>
+      
+      <section class="about">
+<div class="container-texts">
+  
+  <h5>Abou<span>Me</span></h5>
+    <p>Hi, My name is Ehdaa, I am from Syria and I moved to Scotland with my family 7 years ago, I love Scotland and I visited many tourism places in Scotland, I love the beauty of nature in it.
+        I worked as a teacher befor. I did not want to look for a job as a teacher again, my ambition was something els and different. We see how the world is changing,
+         we use technology everyday, every hours and every second. So I decided to learn a new world languages and become one of developers. 
+         I want to move foward in this way because this is the future and I want to be present. </p>
+</div>
+  
+        
+      
+     </section>
+     
+
+<div class="slideshow-container">
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://www.planetware.com/wpimages/2019/02/scotland-best-places-to-visit-fort-william.jpg" style="width:50%">
+  
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://www.planetware.com/wpimages/2019/02/scotland-best-places-to-visit-edinburgh.jpg" style="width:50%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://www.planetware.com/wpimages/2019/02/scotland-best-places-to-visit-loch-ness.jpg" style="width:50%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+ 
+      
+     
+      
+          <section class="box"    id="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="comment">
+            <p v-for="items in item" v-text="items"></p>
+              </div><!--End Comment-->
+              </div><!--End col -->
+              </div><!-- End row -->
+          <div class="row">
+            <div class="col-6">
+          <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+            </div><!-- End col -->
+          </div><!--End Row -->
+        </div><!--End Container -->
+      </section><!-- end App -->
+      
+     
+      </body>
+    </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+:root{
+  --primarycolor:#ff274b;
+  --secondarycolor:#f7bcf7;
+  --lightcolor:#ffffff;
+  --bgcolor-1:#171a1c;
+  --bgcolor-2:#22282a;
+  --padding:8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "josefin sans", sans-serif;
+  color: black;
+  
+}
+
+
+
+
+h2{font-size:2.2rem;
+letter-spacing:0.12rem;
+coursor:pointer;
+}
+
+h1{
+font-size: 4.65rem;
+margin: 1.7rem 0;
+
+}
+    
+
+h3{
+    font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+    
+}
+
+h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+  color: var(--primarycolor);
+}
+
+h5{
+    font-size: 3.37rem;
+   
+    letter-spacing: 2px;
+}
+
+span{
+  color: var(--primarycolor);}
+p{
+    color: var(--primarycolorrycolor);
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: 2rem;
+
+    
+}
+
+
+nav{
+  padding-top:2.8rem;
+    padding-left: var (--padding);
+    padding-right: var(--padding);
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+  
+  list-style-type:none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+nav ul li a{
+  color: black;
+    text-decoration:none;
+    text-transforn: capitalize;
+    transition:0.4s;
+}
+
+nav ul li a:hover{
+  color: var(--secondarycolor)
+}
+
+.nav-link{
+  background-color: red;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+   border:2px solid transparent;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+  border:2px solid transparent;
+    border-radius: 30px;
+    transition: 0.4s;
+  position: relative;}
+ 
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+  .content{
+    
+    padding: 0 var(--padding);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.social{
+    margin-top: 3.5rem;
+    
+
+}
+.social img{
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+.social img:hover{
+transform: scale(1.2);
+}
+
+
+
+
+.home .container-images{
+  position:absolute;
+  bottom:-7rem;
+  width:500px;
+  height:500px;
+    left: 70%;
+  transition: bottom 1s, left 1s;
+  transform: translateX(-50%)
+}
+
+.about {
+    background-color: var(bgcolor-1);
+    padding: 12rem var(--padding);
+    display: flex; 
+    align-items:center;
+    justify-content: space-evenly;
+   
+}
+
+  
+ 
+
+.about .container-texts {
+width: 35%;
+ 
+    
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+    .box .container {
+    	max-width: 640px;
+    	margin: 30px auto;
+    	background: #fff;
+    	border-radius: 8px;
+    	padding: 20px;
+    }
+    .comment {
+    	display: block;
+    	transition: all 1s;
+    }
+    .commentClicked {
+    	min-height: 0px;
+    	border: 1px solid #eee;
+    	border-radius: 5px;
+    	padding: 5px 10px
+    }
+    .container textarea {
+    	width: 100%;
+    	border: none;
+    	background: #E8E8E8;
+    	padding: 5px 10px;
+    	height: 50%;
+    	border-radius: 5px 5px 0px 0px;
+    	border-bottom: 2px solid #016BA8;
+    	transition: all 0.5s;
+    	margin-top: 15px;
+    }
+    button.primaryContained {
+    	background: #016ba8;
+    	color: #fff;
+    	padding: 10px 10px;
+    	border: none;
+    	margin-top: 0px;
+    	cursor: pointer;
+    	text-transform: uppercase;
+    	letter-spacing: 4px;
+    	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    	transition: 1s all;
+    	font-size: 10px;
+    	border-radius: 5px;
+    }
+    button.primaryContained:hover {
+    	background: #9201A8;
+    }
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+ 
+ * {box-sizing:border-box}
